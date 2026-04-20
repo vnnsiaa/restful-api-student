@@ -16,11 +16,8 @@ RESTful API ini digunakan untuk mengelola data student dengan fitur:
 4. **PUT** `/api/students/{id}`
 5. **DELETE** `/api/students/{id}`
 
-## Teknologi yang Digunakan
-- Laravel
-- PHP
-- MySQL
-- Postman
+## Dokumentasi Postman
+https://documenter.getpostman.com/view/51255759/2sBXqDuPto 
 
 ## Author
 Devina Arulyantani Venensia Agustin
