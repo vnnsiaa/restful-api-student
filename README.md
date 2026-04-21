@@ -9,12 +9,22 @@ RESTful API ini digunakan untuk mengelola data student dengan fitur:
 - mengubah data student
 - menghapus data student
 
+## JWT Authentication
+Api ini sudah dilengkapi authentication menggunakan JWT Token.
+
 ## Endpoint API
-1. **GET** `/api/students`
-2. **GET** `/api/students/{id}`
-3. **POST** `/api/students`
-4. **PUT** `/api/students/{id}`
-5. **DELETE** `/api/students/{id}`
+Semua endpoint student memerlukan Bearer Token:
+1. **GET** /api/students
+2. **GET** /api/students/{id}
+3. **POST** /api/students
+4. **PUT** /api/students/{id}
+5. **DELETE** /api/students/{id}
+
+### Auth Endpoints
+- POST /api/register
+- POST /api/login
+- GET /api/me
+- POST /api/logout
 
 ## Dokumentasi Postman
 https://documenter.getpostman.com/view/51255759/2sBXqDuPto 
